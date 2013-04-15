@@ -1,0 +1,2 @@
+ ALTER TABLE credentials CHANGE login login VARCHAR(10) BINARY NOT NULL;
+ ALTER TABLE credentials CHANGE password password VARCHAR(10) BINARY NOT NULL;

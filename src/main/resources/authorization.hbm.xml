@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!--
+  - Mapping file for the Hibernate implementation of the CredentialsRepository interface
+	-->
+<hibernate-mapping auto-import="true">
+
+	<class name="com.szybieka.authentication.domain.User" table="credentials">
+		<id name="id" column="id">
+			<generator class="identity"/>
+		</id>
+		<property name="login" length="10" not-null="true"/>
+		<property name="password" length="10"/>
+		<property name="language" length="2"/>
+	</class>
+</hibernate-mapping>

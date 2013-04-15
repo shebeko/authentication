@@ -1,0 +1,88 @@
+body {
+	font-family: Geneva, Arial, Verdana, sans-serif;
+	font-size: small;
+}
+
+#main {
+	width: 300px;
+	background-color: #f5f5f5;
+	border: solid 1px #bebebe;
+	padding-top: 20px;
+	padding-bottom:10px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.formTable {
+	width: 300px;
+	border-collapse: collapse;
+}
+
+.formTable tr td:nth-child(1) {
+	text-align: right;
+	font-size: 105%;
+	padding-right: 3px;
+	width:148px;	
+}
+
+.formTable td {
+	padding-top: 4px;	
+}
+
+input:focus {
+	border: solid 2px #4d90fe;
+}
+
+select:focus {
+	border: solid 2px #4d90fe;
+}
+
+input[type=submit] {
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 70px;
+	background-color: #357ae8;
+	color:white;
+	font-weight: bold;
+}
+
+
+input[type=submit]:hover {
+	background-color: #4d90fe;
+}
+
+.error {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: red;
+	text-align: center;
+	font-weight: bold;  
+	font-style: italic;
+}
+
+.title {
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 110%;	
+}
+
+.viewTable {
+	width: 240px;
+	margin-top: 20px;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.viewTable td {
+	padding-top: 10px;
+}
+
+.viewTable tr td:nth-child(1) {
+	width: 118px;
+}
+
+.viewTable tr td:nth-child(2) {
+	font-family: "Courier New", Courier, "Andale Mono", monospace;
+}
