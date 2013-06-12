@@ -1,4 +1,4 @@
 authentication
 ==============
 
-authentication application
+Authentication application
